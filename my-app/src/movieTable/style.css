@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style: none;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container {
+    width: 1200px;
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* +++++++++++++++++++++++++++++++ */
+
+
+table {
+    width: 100%;
+    text-align: center;
+    margin: 50px 0;
+}
+thead td {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+td {
+    border-top: 1px solid #ddd;
+    border-bottom: 1px solid #ddd;
+    border-collapse: none;
+}
+td {
+    padding: 10px;
+}
+
+.btn {
+    padding: 10px 20px ;
+    border: none;
+
+}
+
+.btn-primary {
+    background: dodgerblue;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.like-icon {
+    font-size: 1.5rem;
+    color: red;
+}
+.pagination ul {
+    display: flex;
+}
+.pagination .btn{
+    padding: 10px 20px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+.pagination-active {
+    color: #fff;
+    background: dodgerblue;
+    border: none;
+}
+
+.row {
+    display: grid;
+    grid-template-columns: 250px 1fr ;
+    gap: 50px;
+}
+
+.row .left .li-normal{
+    width: 100%;
+    border: 1px solid #ddd;
+    padding: 10px 15px;
+    cursor: pointer;
+    
+}
+
